@@ -1,0 +1,20 @@
+Name
+	_printf - formatted output
+SYNOPSIS
+	#include "main.h"
+	int _printf(const char * format, ...)
+DESCRIPTION
+	_printf() prints to standard output under the control of a format string that specifies how subsequent arguments are converted for output
+RETURN VALUE
+       The function should return the numbers of characters printed excluding the null byte) upon success
+       if not succesful output is (- value)
+Format of the format string
+conversion specifier
+	   d, i the int argumant is converted to signed decimal notation.
+	   c The int arguent is converted to an unsigned char, and the resulting character is written
+	   s The const char * argument is expected to be a pointer to an array of character type (poiter to a string). characters from the arrat are written up
+	   % A'% is written but no argument is converted. The complete version specification is '%%'
+
+AUTHOR(s)
+James Kwao
+Eugene Adortsu(Partner in group project)
